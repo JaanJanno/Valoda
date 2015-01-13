@@ -5,9 +5,7 @@ grammar Valoda;
 	package parser.antlr4.gen;
 }
 
-seq : word (' ' word)* EOF ;
-
-word: number ;
+word: number EOF ;
 
 number
 	: 'nulle'		# Nulle

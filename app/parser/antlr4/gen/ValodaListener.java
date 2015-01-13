@@ -227,16 +227,6 @@ public interface ValodaListener extends ParseTreeListener {
 	 */
 	void exitDesmit(@NotNull ValodaParser.DesmitContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link ValodaParser#seq}.
-	 * @param ctx the parse tree
-	 */
-	void enterSeq(@NotNull ValodaParser.SeqContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link ValodaParser#seq}.
-	 * @param ctx the parse tree
-	 */
-	void exitSeq(@NotNull ValodaParser.SeqContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code PreThree}
 	 * labeled alternative in {@link ValodaParser#preNumber}.
 	 * @param ctx the parse tree

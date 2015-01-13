@@ -235,18 +235,6 @@ public class ValodaBaseListener implements ValodaListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSeq(@NotNull ValodaParser.SeqContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitSeq(@NotNull ValodaParser.SeqContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterPreThree(@NotNull ValodaParser.PreThreeContext ctx) { }
 	/**
 	 * {@inheritDoc}
