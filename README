@@ -1,4 +1,5 @@
-This is your new Play application
-=================================
+Web application for learning latvian numbers and dates.
 
-This file will be packaged with your application, when using `activator dist`.
+Currently only has an index page view on the application and a g4 source that defines latvian number grammar.
+
+Staging environment present in: http://valoda.herokuapp.com/
