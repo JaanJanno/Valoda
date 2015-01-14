@@ -1,0 +1,12 @@
+###Põhimenüü###
+# Ülesanded #
+mainmenu.exercises=Ülesanded
+mainmenu.exercises.numbers=Arvsõnade kirjutamine
+mainmenu.exercises.dates=Kuupäevade kirjutamine
+# Õppimiseks #
+mainmenu.learn=Õppimiseks
+mainmenu.learn.numbers=Arvsõnad
+mainmenu.learn.dates=Kuud ja päevad
+
+###Unfinished###
+unfinished.underconstruction=Koostamisel!

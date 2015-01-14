@@ -1,21 +1,32 @@
+@(lang: Lang)
+
 <div id="main-menu">
 
 
-	<div class="title">Ülesanded</div>
 
-	<a href="">
-		<div class="button">Arvsõnade kirjutamine</div>
-	</a>
-	<a href="">
-		<div class="button">Kuupäevade kirjutamine</div>
-	</a>
-	<div class="title">Õppimiseks</div>
+	<div class="title">@play.i18n.Messages.get(lang, "mainmenu.exercises")</div>
 
-	<a href="">
-		<div class="button">Arvsõnad</div>
+	<a href="numberguess">
+		<div class="button">@play.i18n.Messages.get(lang, "mainmenu.exercises.numbers")</div>
 	</a>
-	<a href="">
-		<div class="button">Kuud ja päevad</div>
-	</a>	
+	<a href="dateguess">
+		<div class="button">@play.i18n.Messages.get(lang, "mainmenu.exercises.dates")</div>
+	</a>
+	<div class="title">@play.i18n.Messages.get(lang, "mainmenu.learn")</div>
+
+	<a href="numberlearn">
+		<div class="button">@play.i18n.Messages.get(lang, "mainmenu.learn.numbers")</div>
+	</a>
+	<a href="datelearn">
+		<div class="button">@play.i18n.Messages.get(lang, "mainmenu.learn.dates")</div>
+	</a>
+
+	<a href="lang/et" class="langicon">
+		<img src="@routes.Assets.at("images/lang/et.png")">
+	</a>
+	
+	<a href="lang/en" class="langicon">
+		<img src="@routes.Assets.at("images/lang/en.png")">
+	</a>
 </div>
 

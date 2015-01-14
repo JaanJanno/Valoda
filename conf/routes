@@ -5,5 +5,20 @@
 # Home page
 GET     /                           controllers.Application.index()
 
+# Number guess page
+GET		/numberguess				controllers.guess.numberguesser.NumberGuess.get()
+
+# Date guess page
+GET		/dateguess					controllers.guess.dateguesser.DateGuess.get()
+
+# Number learn page
+GET		/numberlearn				controllers.learn.numberlearner.NumberLearn.get()
+
+# Date learn page
+GET		/datelearn					controllers.learn.datelearner.DateLearn.get()
+
+# Language picker
+GET 	/lang/:lang 				controllers.LanguageController.get(lang: String)
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

@@ -1,0 +1,12 @@
+###Main menu###
+# Exercises #
+mainmenu.exercises=Exercises
+mainmenu.exercises.numbers=Number writing
+mainmenu.exercises.dates=Date writing
+# Learning #
+mainmenu.learn=Learning
+mainmenu.learn.numbers=Numbers
+mainmenu.learn.dates=Months and days
+
+###Unfinished###
+unfinished.underconstruction=Under construction!

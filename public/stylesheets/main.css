@@ -4,7 +4,9 @@
 	width: 100%;
 	background-color:#500;
 	padding-left: 0;
-	box-shadow: 0 0 1.5em #b88;
+	box-shadow: 0 0 1.5em #b88 , inset 0px -16px 16px -16px #caa;
+
+	/*position: relative;*/
 }
 
 .banner-bar-container{
@@ -15,6 +17,11 @@
 	min-width: 50em;
 }
 
+.langicon img{
+	width: 64px;
+	margin-top: 1em;
+}
+
 .banner{
 	font-family: Impact, Charcoal, sans-serif;
 	text-shadow: 0.05em 0.05em #d33;
@@ -23,6 +30,7 @@
 	display: inline-block;
 	left: 1em;
 	margin-top: 0.3em;
+	padding-right: 1em;
 }
 
 .banner:hover {
@@ -104,6 +112,11 @@ a{
 	text-align: right;
 	border-bottom-left-radius: 2em;
 	border-bottom-right-radius: 2em;
+
+	margin-bottom: 1em;
+
+	z-index:-5;
+	position: relative;
 }
 
 .footer i{
