@@ -9,7 +9,7 @@ import views.html.datelearn.datelearnview;
 public class DateLearn extends Controller {
 
 	public static Result get() {
-		Html content = datelearnview.render(
-				LanguageController.getLanguage());
+		Html content = datelearnview.render(LanguageController.getLanguage());
 		return ok(content);
-	}}
+	}
+}

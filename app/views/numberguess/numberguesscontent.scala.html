@@ -1,5 +1,35 @@
-@(lang: Lang)
+@(guess: Int, lang: Lang)
 
 <div id="main-menu">
-	<div class="title">@play.i18n.Messages.get(lang, "unfinished.underconstruction")</div>
+	@if(flash.contains("Correct")) {
+		<div class="correctGuess">
+			@play.i18n.Messages.get(lang, "numberguess.correct")
+			@flash.get("String") = @flash.get("Int")
+		</div>
+	}
+	@if(flash.contains("Invalid")) {
+		<div class="falseGuess">
+			@play.i18n.Messages.get(lang, "numberguess.invalid")
+			"@flash.get("String")"
+			@play.i18n.Messages.get(lang, "numberguess.not2") 
+			@flash.get("eInt")
+		</div>
+	}
+	@if(flash.contains("False")) {
+		<div class="falseGuess">
+			@play.i18n.Messages.get(lang, "numberguess.false")
+			@flash.get("String") = @flash.get("Int"), 
+			@play.i18n.Messages.get(lang, "numberguess.not") 
+			@flash.get("eInt")
+			
+		</div>
+	}
+
+	<div class="widetitle">@play.i18n.Messages.get(lang, "numberguess.guess")</div>
+	<div class="guessnumber">@guess</div>
+
+	@helper.form(controllers.guess.numberguesser.routes.NumberGuess.post, 'id -> "number-guess") {
+		<input class="textbox" type="text" id="guessValue" name="guessValue" placeholder="@play.i18n.Messages.get(lang, "numberguess.here")" autofocus/><br>
+		<input class="submit-button" id="button" type="submit" value="@play.i18n.Messages.get(lang, "numberguess.submit")">
+    }
 </div>

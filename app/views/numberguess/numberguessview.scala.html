@@ -1,4 +1,4 @@
-@(lang: Lang)
+@(guess: Int, lang: Lang)
 
 <html>
 	<head>
@@ -10,7 +10,7 @@
 	<body>
 		@views.html.header()
 		@views.html.contentView(
-			views.html.numberguess.numberguesscontent(lang)
+			views.html.numberguess.numberguesscontent(guess, lang)
 		)
 		@views.html.footer()
 	</body>

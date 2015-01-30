@@ -8,5 +8,17 @@ mainmenu.learn=Learning
 mainmenu.learn.numbers=Numbers
 mainmenu.learn.dates=Months and days
 
+###Number guess###
+numberguess.guess=Write the following number in latvian
+numberguess.here=Write here ...
+numberguess.submit=Submit answer
+#Result#
+numberguess.correct=Correct answer!
+numberguess.false=Wrong number!
+numberguess.invalid=Wrong answer!
+#Misc#
+numberguess.not=not
+numberguess.not2=is not
+
 ###Unfinished###
 unfinished.underconstruction=Under construction!

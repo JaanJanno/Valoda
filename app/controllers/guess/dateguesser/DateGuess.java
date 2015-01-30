@@ -9,7 +9,7 @@ import views.html.dateguess.dateguessview;
 public class DateGuess extends Controller {
 
 	public static Result get() {
-		Html content = dateguessview.render(
-				LanguageController.getLanguage());
+		Html content = dateguessview.render(LanguageController.getLanguage());
 		return ok(content);
-	}}
+	}
+}

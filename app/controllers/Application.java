@@ -7,8 +7,7 @@ import views.html.*;
 public class Application extends Controller {
 
 	public static Result index() {
-		Html indexContent = index.render(
-LanguageController.getLanguage());
+		Html indexContent = index.render(LanguageController.getLanguage());
 		return ok(indexContent);
 	}
 }

@@ -34,7 +34,8 @@
 }
 
 .banner:hover {
-    color: #fee;
+    color: #fff8f8;
+    text-shadow: 0.05em 0.05em #d33, 0.05em 0.05em 1em #f99;
 }
 
 .contents{
@@ -65,8 +66,30 @@
 	margin-bottom: 2em;
 }
 
+.submit-button{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: auto;
+	/*display: inline-block;*/
+	background-color: #fff;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: 3px 3px 8px 2px #aaa;
+	text-align: center;
+	color: #333;
+	text-shadow: 2px 2px 2px #ccc;
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+
 .button:hover {
     background: #fff8f8;
+    box-shadow: 0px 0px 18px 2px #bbb, 7px 7px 16px 2px #aaa;
+}
+
+.submit-button:hover {
+    background: #fff8f8;
+    box-shadow: 3px 3px 8px 2px #aaa, 0px 0px 18px 2px #bbb;
 }
 
 a{
@@ -83,6 +106,21 @@ a{
 	margin-bottom: 1em;
 }
 
+.widetitle{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 60%;
+	background-color: #ccc;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: inset 0px 0px 16px 2px #aaa;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 4px #000, 1px 1px 4px #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .title{
 	padding: 0.5em;
 	padding-right: 0.5em;
@@ -93,9 +131,24 @@ a{
 	box-shadow: inset 0px 0px 16px 2px #aaa;
 	text-align: center;
 	color: #fff;
-	text-shadow: 2px 2px 2px #000;
+	text-shadow: 1px 1px 4px #000, 1px 1px 4px #000;
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+.guessnumber{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 60%;
+	background-color: #888;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: 0px 0px 16px 2px #777, inset 0px 0px 16px 2px #777;
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	margin-top: 1em;
+	margin-bottom: 0em;
 }
 
 .footer{
@@ -124,10 +177,83 @@ a{
 	padding-right: 2em;
 }
 
+.correctGuess{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 100%;
+	background-color: #6d6;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: inset 0px 0px 16px 2px #aaa;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 1px 5px #000, 0px 1px 5px #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	word-wrap: break-word;
+}
+
+.falseGuess{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 100%;
+	background-color: #f88;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: inset 0px 0px 16px 2px #aaa;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 1px 5px #000, 0px 1px 5px #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	word-wrap: break-word;
+}
+
+.invalidGuess{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 30%;
+	background-color: #f88;
+	font-size: 22;
+	border-radius: 0.7em;
+	box-shadow: inset 0px 0px 16px 2px #aaa;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 1px 5px #000, 0px 1px 5px #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	word-wrap: break-word;
+}
+
 #main-menu{
 	width: 90%;
 	padding-top: 0.1em;
 	margin: auto;
+}
+
+#number-guess{
+	margin: 0;
+	padding: 0;
+	margin-top: 0;
+}
+
+#number-guess .textbox{
+	padding: 0.5em;
+	padding-right: 0.5em;
+	width: 100%;
+	font-size: 22;
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 4px 0px #333, inset 0px 0px 1px 1px #333;
+	text-align: left;
+	color: #000;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border: 8px;
+}
+
+#number-guess .textbox:hover {
+    background: #fff8f8;
+    box-shadow: 0px 0px 5px 1px #555, inset 0px 0px 1px 1px #333;
 }
 
 body{

@@ -7,7 +7,8 @@ GET     /                           controllers.Application.index()
 
 # Number guess page
 GET		/numberguess				controllers.guess.numberguesser.NumberGuess.get()
-
+POST	/numberguess/post			controllers.guess.numberguesser.NumberGuess.post()
+	
 # Date guess page
 GET		/dateguess					controllers.guess.dateguesser.DateGuess.get()
 

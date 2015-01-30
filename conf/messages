@@ -8,5 +8,17 @@ mainmenu.learn=Õppimiseks
 mainmenu.learn.numbers=Arvsõnad
 mainmenu.learn.dates=Kuud ja päevad
 
+###Numbri arvamine###
+numberguess.guess=Kirjuta järgnev arv lätikeelse arvsõnana
+numberguess.here=Kirjuta siia ...
+numberguess.submit=Kontrolli vastust
+#Tulemus#
+numberguess.correct=Õige vastus!
+numberguess.false=Vale arv!
+numberguess.invalid=Vale vastus!
+#Misc#
+numberguess.not=mitte
+numberguess.not2=ei ole
+
 ###Unfinished###
 unfinished.underconstruction=Koostamisel!
