@@ -1,5 +1,10 @@
 Web application for learning latvian numbers and dates.
 
-Currently only has an index page view on the application and a g4 source that defines latvian number grammar.
+Currently has a functional view for writing Latvian numbers. 
+It is able to parse the user's input and respond whether the written words correspond to the requested number.
+It should cover all possible ways of writing numbers from 0 to 999999 in masculine gender.
+It is able to detect when a wrong number is written and will give appropriate feedback.
+
+A g4 source written in ANTLR defines latvian number grammar.
 
 Staging environment present in: http://valoda.herokuapp.com/
